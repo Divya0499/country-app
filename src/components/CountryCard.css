@@ -1,0 +1,33 @@
+/* CountryCard.css */
+
+.country-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .country-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .country-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .country-card p {
+    margin: 0;
+    color: #666;
+  }
+  
